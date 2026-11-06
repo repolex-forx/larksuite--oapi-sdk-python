@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/larksuite/oapi-sdk-python/commit/0d9749a4728446a0ffa2e8374b37b5e1ce1cfd9c",
       "git:hexsha": "0d9749a4728446a0ffa2e8374b37b5e1ce1cfd9c",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     },
     {
       "@id": "https://repolex.ai/r/larksuite/oapi-sdk-python/commit/5469093694b67e239331023966833f2ae771ec4a",
