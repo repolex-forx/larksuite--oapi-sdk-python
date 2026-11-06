@@ -1,0 +1,11 @@
+{
+  "org": "larksuite",
+  "repo": "oapi-sdk-python",
+  "versions": [
+    {
+      "commit": "0d9749a4728446a0ffa2e8374b37b5e1ce1cfd9c",
+      "tag": "",
+      "parsed_at": "2026-11-06T03:17:33.020224+00:00"
+    }
+  ]
+}
