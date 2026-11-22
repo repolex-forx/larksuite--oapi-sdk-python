@@ -1,0 +1,78 @@
+[2026-11-22T09:15:09Z] === ENRICH ITERATION 1 START | repo=larksuite/oapi-sdk-python sha=0b1fac5b ===
+[2026-11-22T09:15:09Z] [iter=1] PHASE START: enrich repo=larksuite/oapi-sdk-python sha=0b1fac5b runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/0b1fac5b-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/0b1fac5bd1043a5975505b76d3ef89ef168c08bf.nq.gz
+[2026-11-22T09:15:09Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-11-22T09:24:55Z] [iter=1] AST store loaded triples=26004218 load_secs=579 mem_mb=1100 MB
+[2026-11-22T09:24:55Z] [iter=1] Step 2: Finding LSP targets mem_mb=1100 MB
+[2026-11-22T09:26:11Z] [iter=1] LSP targets found call_sites=114318 imports=28096 extends=17490 implements=0 secs=75
+[2026-11-22T09:27:26Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1100 MB
+[2026-11-22T09:29:56Z] [iter=1] Position index built positions=1781964 nodes_with_types=2298912 secs=150 mem_mb=4210 MB
+[2026-11-22T09:29:56Z] [iter=1] Step 3: Starting LSP resolution mem_mb=4210 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T09:29:56Z] [iter=1] Resolving target type target_type=call_site count=114318
+[2026-11-22T09:29:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.8 files_done=0 resolved=0 errors=0 current=lark_oapi/api/corehr/v2/model/p2_corehr_process_updated_v2.py
+[2026-11-22T09:30:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.4 files_done=1 resolved=6 errors=0 current=samples/api/document_ai/v1/recognize_health_certificate_sample.py
+[2026-11-22T09:35:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.8 files_done=2 resolved=43 errors=0 current=lark_oapi/api/hire/v1/model/talent.py
+[2026-11-22T09:36:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.4 files_done=3 resolved=46 errors=0 current=samples/api/corehr/v2/patch_employees_international_assignment_sample.py
+[2026-11-22T09:43:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.0 files_done=4 resolved=65 errors=0 current=samples/api/mdm/v1/bind_user_auth_data_relation_sample.py
+[2026-11-22T09:49:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=34.2 files_done=5 resolved=108 errors=0 current=samples/api/calendar/v4/patch_calendar_sample.py
+[2026-11-22T09:55:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=40.8 files_done=6 resolved=153 errors=0 current=lark_oapi/api/corehr/v2/model/education_info_for_update.py
+[2026-11-22T09:56:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.3 files_done=7 resolved=156 errors=0 current=lark_oapi/api/docx/v1/model/callout.py
+[2026-11-22T09:57:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.9 files_done=8 resolved=159 errors=0 current=lark_oapi/ws/pb/google/protobuf/internal/containers.py
+[2026-11-22T10:00:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=45.0 files_done=9 resolved=234 errors=0 current=samples/api/sheets/v3/get_spreadsheet_sample.py
+[2026-11-22T10:04:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=49.1 files_done=10 resolved=264 errors=0 current=lark_oapi/api/helpdesk/v1/model/ticket_event.py
+[2026-11-22T10:04:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=49.6 files_done=11 resolved=267 errors=0 current=lark_oapi/api/hire/v1/model/location_country.py
+[2026-11-22T10:05:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=50.2 files_done=12 resolved=270 errors=0 current=lark_oapi/api/admin/v1/model/list_admin_dept_stat_request.py
+[2026-11-22T10:07:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=52.1 files_done=13 resolved=283 errors=0 current=samples/api/docx/v1/raw_content_document_sample.py
+[2026-11-22T10:11:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=56.2 files_done=14 resolved=314 errors=0 current=lark_oapi/api/corehr/v2/resource/department.py
+[2026-11-22T10:22:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=67.1 files_done=15 resolved=413 errors=0 current=lark_oapi/api/application/v6/model/p2_application_application_app_version_audit_v6.py
+[2026-11-22T10:28:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=73.3 files_done=17 resolved=459 errors=0 current=samples/api/bitable/v1/list_app_table_view_sample.py
+[2026-11-22T10:33:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=78.5 files_done=18 resolved=496 errors=0 current=samples/api/im/v1/create_chat_sample.py
+[2026-11-22T10:36:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=81.3 files_done=19 resolved=514 errors=0 current=lark_oapi/api/drive/v1/model/download_media_response.py
+[2026-11-22T10:37:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=81.9 files_done=21 resolved=520 errors=0 current=lark_oapi/api/performance/v2/resource/additional_information.py
+[2026-11-22T10:39:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=84.0 files_done=22 resolved=540 errors=0 current=lark_oapi/api/vc/v1/model/patch_reserve_config_form_request_body.py
+[2026-11-22T10:39:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=84.5 files_done=23 resolved=543 errors=0 current=samples/api/hire/v1/create_note_sample.py
+[2026-11-22T10:43:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=88.7 files_done=24 resolved=558 errors=0 current=samples/api/docx/v1/create_document_block_children_sample.py
+[2026-11-22T10:50:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=95.6 files_done=25 resolved=605 errors=0 current=lark_oapi/api/helpdesk/v1/resource/ticket.py
+[2026-11-22T10:58:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=103.8 files_done=26 resolved=685 errors=0 current=samples/api/im/v1/patch_chat_menu_item_sample.py
+[2026-11-22T11:05:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=110.4 files_done=27 resolved=730 errors=0 current=lark_oapi/api/directory/v1/resource/collboration_share_entity.py
+[2026-11-22T11:06:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=111.5 files_done=28 resolved=740 errors=0 current=lark_oapi/api/corehr/v1/model/create_leave_granting_record_request.py
+[2026-11-22T11:07:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=112.2 files_done=29 resolved=745 errors=0 current=lark_oapi/api/docx/v1/model/document_cover.py
+[2026-11-22T11:07:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=112.8 files_done=30 resolved=748 errors=0 current=lark_oapi/api/hire/v1/resource/external_background_check.py
+[2026-11-22T11:12:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=117.0 files_done=31 resolved=788 errors=0 current=lark_oapi/api/task/v2/model/create_task_response.py
+[2026-11-22T11:16:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=121.0 files_done=33 resolved=819 errors=0 current=samples/api/vc/v1/get_room_sample.py
+[2026-11-22T11:20:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=125.0 files_done=34 resolved=849 errors=0 current=samples/api/vc/v1/set_room_access_code_room_config_sample.py
+[2026-11-22T11:27:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=132.1 files_done=35 resolved=896 errors=0 current=lark_oapi/api/hire/v1/model/batch_change_talent_pool_talent_pool_request_body.py
+[2026-11-22T11:27:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=132.6 files_done=36 resolved=899 errors=0 current=samples/api/bitable/v1/update_app_sample.py
+[2026-11-22T11:33:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=138.1 files_done=37 resolved=937 errors=0 current=samples/api/approval/v4/list_instance_comment_sample.py
+[2026-11-22T11:35:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=140.4 files_done=38 resolved=956 errors=0 current=lark_oapi/api/attendance/v1/model/query_user_task_remedy_request.py
+[2026-11-22T11:36:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=141.1 files_done=39 resolved=961 errors=0 current=samples/api/bitable/v1/create_app_role_member_sample.py
+[2026-11-22T11:42:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=147.0 files_done=40 resolved=1002 errors=0 current=lark_oapi/api/contact/v3/resource/functional_role_member.py
+[2026-11-22T11:47:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=152.2 files_done=41 resolved=1051 errors=0 current=samples/api/translation/v1/translate_text_sample.py
+[2026-11-22T11:53:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=158.0 files_done=42 resolved=1092 errors=0 current=lark_oapi/api/mail/v1/resource/user_mailbox_rule.py
+[2026-11-22T11:58:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=163.3 files_done=43 resolved=1142 errors=0 current=lark_oapi/api/bitable/v1/model/update_app_workflow_response_body.py
+[2026-11-22T11:59:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=163.9 files_done=44 resolved=1145 errors=0 current=lark_oapi/api/calendar/v4/model/delete_timeoff_event_request.py
+[2026-11-22T11:59:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=164.4 files_done=45 resolved=1150 errors=0 current=samples/api/docx/v1/convert_document_sample.py
+[2026-11-22T12:05:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=170.0 files_done=46 resolved=1189 errors=0 current=samples/api/corehr/v1/get_currency_sample.py
+[2026-11-22T12:07:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=172.3 files_done=47 resolved=1207 errors=0 current=samples/api/corehr/v2/search_pre_hire_sample.py
+[2026-11-22T12:11:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=176.6 files_done=48 resolved=1210 errors=0 current=samples/api/personal_settings/v1/batch_close_system_status_sample.py
+[2026-11-22T12:17:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=182.2 files_done=49 resolved=1249 errors=0 current=samples/api/hire/v1/list_offer_approval_template_sample.py
+[2026-11-22T12:20:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=185.5 files_done=50 resolved=1267 errors=0 current=samples/api/approval/v4/search_cc_instance_sample.py
+[2026-11-22T12:30:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=195.0 files_done=51 resolved=1328 errors=0 current=samples/api/task/v2/create_comment_sample.py
+[2026-11-22T12:36:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=201.2 files_done=52 resolved=1371 errors=0 current=samples/api/task/v2/list_tasklist_activity_subscription_sample.py
+[2026-11-22T12:40:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=205.7 files_done=53 resolved=1404 errors=0 current=lark_oapi/api/mail/v1/model/get_public_mailbox_member_request_body.py
+[2026-11-22T12:41:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=206.2 files_done=54 resolved=1407 errors=0 current=lark_oapi/api/corehr/v1/model/leave_duration.py
+[2026-11-22T12:41:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=206.8 files_done=55 resolved=1410 errors=0 current=lark_oapi/api/approval/v4/model/external_approval_item.py
+[2026-11-22T12:42:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=207.3 files_done=56 resolved=1413 errors=0 current=samples/api/bitable/v1/create_app_table_field_sample.py
+[2026-11-22T12:51:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=215.9 files_done=57 resolved=1469 errors=0 current=lark_oapi/api/corehr/v2/model/batch_employees_additional_job_request_body.py
+[2026-11-22T12:51:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=216.4 files_done=58 resolved=1472 errors=0 current=lark_oapi/api/bitable/v1/model/update_app_table_field_request.py
+[2026-11-22T12:52:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=217.0 files_done=59 resolved=1479 errors=0 current=lark_oapi/api/drive/v1/model/delete_file_response_body.py
+[2026-11-22T12:52:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=217.5 files_done=60 resolved=1482 errors=0 current=samples/api/sheets/v3/update_spreadsheet_sheet_filter_view_condition_sample.py
+[2026-11-22T12:59:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=224.3 files_done=61 resolved=1528 errors=0 current=lark_oapi/api/document_ai/v1/resource/taxi_invoice.py
+[2026-11-22T13:00:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=225.8 files_done=62 resolved=1540 errors=0 current=samples/api/corehr/v1/create_department_sample.py
+[2026-11-22T13:04:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=229.3 files_done=63 resolved=1559 errors=0 current=samples/api/corehr/v2/transit_task_pre_hire_sample.py
+[2026-11-22T13:07:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=232.6 files_done=64 resolved=1577 errors=0 current=lark_oapi/api/bitable/v1/model/delete_app_table_view_response_body.py
+[2026-11-22T13:08:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=233.1 files_done=65 resolved=1580 errors=0 current=lark_oapi/api/corehr/v1/resource/company.py
+[2026-11-22T13:13:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=238.4 files_done=66 resolved=1630 errors=0 current=lark_oapi/ws/pb/google/protobuf/internal/well_known_types.py
+[2026-11-22T13:15:12Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=240.0 files_completed=66 new_files_this_iter=66 mem_mb=4233 MB
+[2026-11-22T13:15:12Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/0b1fac5bd1043a5975505b76d3ef89ef168c08bf.nq.gz triples=270429
+[2026-11-22T13:15:15Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-11-22T13:15:15Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=14403 elapsed_min=240.0 files_completed=66
