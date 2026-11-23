@@ -32,8 +32,10 @@
     "samples/api/approval/v4/get_instance_sample.py",
     "samples/api/auth/v3/resend_app_ticket_sample.py",
     "samples/api/board/v1/theme_whiteboard_sample.py",
+    "samples/api/contact/v3/resurrect_user_sample.py",
     "samples/api/contact/v3/simplelist_group_member_sample.py",
     "samples/api/contact/v3/update_job_family_sample.py",
+    "samples/api/contact/v3/update_user_sample.py",
     "samples/api/corehr/v1/create_person_sample.py",
     "samples/api/corehr/v1/get_job_level_sample.py",
     "samples/api/corehr/v1/match_compensation_standard_sample.py",
@@ -73,7 +75,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/4198f44cd7caa87b282f1344dd23249d7941649b.nq.gz",
     "call_sites": 114318,
     "import_statements": 28096,
-    "call_targets_resolved": 1449,
+    "call_targets_resolved": 1553,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -87,5 +89,5 @@
     "extends_class_denormalized": 17481,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1888
+  "elapsed_seconds": 1805
 }
