@@ -14,11 +14,15 @@
     "lark_oapi/api/corehr/v2/resource/position.py",
     "lark_oapi/api/directory/v1/model/list_collaboration_tenant_response_body.py",
     "lark_oapi/api/document_ai/v1/resource/vat_invoice.py",
+    "lark_oapi/api/drive/v1/model/patch_permission_public_response_body.py",
     "lark_oapi/api/helpdesk/v1/resource/agent_schedule.py",
     "lark_oapi/api/hire/v1/model/create_attachment_request.py",
     "lark_oapi/api/hire/v1/model/query_agency_request_body.py",
+    "lark_oapi/api/hire/v1/model/update_result_eco_exam_request.py",
+    "lark_oapi/api/mdm/v3/model/major.py",
     "lark_oapi/api/search/v2/model/delete_data_source_response.py",
     "lark_oapi/api/task/v1/model/get_task_request_body.py",
+    "lark_oapi/api/task/v2/model/remove_members_task_request.py",
     "lark_oapi/api/verification/v1/model/department_id.py",
     "samples/api/apaas/v1/sql_commands_workspace_sample.py",
     "samples/api/approval/v4/get_instance_sample.py",
@@ -32,10 +36,12 @@
     "samples/api/corehr/v2/list_employees_international_assignment_sample.py",
     "samples/api/corehr/v2/submit_v2_offboarding_sample.py",
     "samples/api/directory/v1/resurrect_employee_sample.py",
+    "samples/api/document_ai/v1/recognize_business_card_sample.py",
     "samples/api/document_ai/v1/recognize_chinese_passport_sample.py",
     "samples/api/drive/v1/update_permission_member_sample.py",
     "samples/api/helpdesk/v1/create_agent_schedule_sample.py",
     "samples/api/hire/v1/combined_update_job_sample.py",
+    "samples/api/hire/v1/list_interview_round_type_sample.py",
     "samples/api/hire/v1/patch_ehr_import_task_sample.py",
     "samples/api/hire/v1/protect_search_agency_sample.py",
     "samples/api/im/v1/create_chat_menu_tree_sample.py",
@@ -45,6 +51,7 @@
     "samples/api/performance/v2/delete_additional_informations_batch_sample.py",
     "samples/api/task/v1/get_task_comment_sample.py",
     "samples/api/task/v2/add_custom_field_sample.py",
+    "samples/api/vc/v1/end_meeting_sample.py",
     "samples/api/vc/v1/get_participant_list_sample.py",
     "samples/api/vc/v1/list_room_sample.py"
   ],
@@ -54,7 +61,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/4198f44cd7caa87b282f1344dd23249d7941649b.nq.gz",
     "call_sites": 114318,
     "import_statements": 28096,
-    "call_targets_resolved": 1077,
+    "call_targets_resolved": 1190,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -68,5 +75,5 @@
     "extends_class_denormalized": 17481,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1820
+  "elapsed_seconds": 1827
 }
