@@ -24,8 +24,10 @@
     "lark_oapi/api/calendar/v4/model/list_calendar_event_attendee_response_body.py",
     "lark_oapi/api/calendar/v4/model/unsubscribe_calendar_request.py",
     "lark_oapi/api/cardkit/v1/model/callback_action_context.py",
+    "lark_oapi/api/cardkit/v1/model/patch_card_element_response_body.py",
     "lark_oapi/api/compensation/v1/model/query_social_archive_adjust_record_request.py",
     "lark_oapi/api/contact/v3/model/get_functional_role_member_request_body.py",
+    "lark_oapi/api/contact/v3/model/list_department_unit_response.py",
     "lark_oapi/api/contact/v3/resource/department.py",
     "lark_oapi/api/contact/v3/resource/job_title.py",
     "lark_oapi/api/corehr/v1/model/list_job_request_body.py",
@@ -44,8 +46,10 @@
     "lark_oapi/api/corehr/v2/processor.py",
     "lark_oapi/api/corehr/v2/resource/custom_org.py",
     "lark_oapi/api/corehr/v2/resource/employees_international_assignment.py",
+    "lark_oapi/api/corehr/v2/resource/job.py",
     "lark_oapi/api/corehr/v2/resource/position.py",
     "lark_oapi/api/corehr/v2/resource/signature_node.py",
+    "lark_oapi/api/corehr/v2/version.py",
     "lark_oapi/api/directory/v1/model/list_collaboration_tenant_response_body.py",
     "lark_oapi/api/document_ai/v1/resource/hkm_mainland_travel_permit.py",
     "lark_oapi/api/document_ai/v1/resource/vat_invoice.py",
@@ -59,6 +63,7 @@
     "lark_oapi/api/hire/v1/model/external_interview_assessment_dimension.py",
     "lark_oapi/api/hire/v1/model/interview_extend_v2.py",
     "lark_oapi/api/hire/v1/model/job_detail_category.py",
+    "lark_oapi/api/hire/v1/model/list_user_role_response_body.py",
     "lark_oapi/api/hire/v1/model/p2_hire_talent_tag_subscription_v1.py",
     "lark_oapi/api/hire/v1/model/point.py",
     "lark_oapi/api/hire/v1/model/query_agency_request_body.py",
@@ -149,6 +154,7 @@
     "samples/api/corehr/v2/search_cost_center_sample.py",
     "samples/api/corehr/v2/search_signature_template_sample.py",
     "samples/api/corehr/v2/submit_v2_offboarding_sample.py",
+    "samples/api/directory/v1/regular_employee_sample.py",
     "samples/api/directory/v1/resurrect_employee_sample.py",
     "samples/api/document_ai/v1/recognize_business_card_sample.py",
     "samples/api/document_ai/v1/recognize_chinese_passport_sample.py",
@@ -201,7 +207,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/4198f44cd7caa87b282f1344dd23249d7941649b.nq.gz",
     "call_sites": 114318,
     "import_statements": 28096,
-    "call_targets_resolved": 4657,
+    "call_targets_resolved": 4806,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -215,5 +221,5 @@
     "extends_class_denormalized": 17481,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1838
+  "elapsed_seconds": 1859
 }
