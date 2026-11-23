@@ -23,8 +23,10 @@
     "lark_oapi/api/calendar/v4/model/unsubscribe_calendar_request.py",
     "lark_oapi/api/cardkit/v1/model/callback_action_context.py",
     "lark_oapi/api/compensation/v1/model/query_social_archive_adjust_record_request.py",
+    "lark_oapi/api/contact/v3/model/get_functional_role_member_request_body.py",
     "lark_oapi/api/contact/v3/resource/job_title.py",
     "lark_oapi/api/corehr/v1/model/p2_corehr_job_data_deleted_v1.py",
+    "lark_oapi/api/corehr/v1/model/p2_corehr_org_role_authorization_updated_v1.py",
     "lark_oapi/api/corehr/v1/model/patch_person_request.py",
     "lark_oapi/api/corehr/v2/model/active_company_request.py",
     "lark_oapi/api/corehr/v2/model/active_pathway_response.py",
@@ -38,6 +40,7 @@
     "lark_oapi/api/corehr/v2/resource/position.py",
     "lark_oapi/api/corehr/v2/resource/signature_node.py",
     "lark_oapi/api/directory/v1/model/list_collaboration_tenant_response_body.py",
+    "lark_oapi/api/document_ai/v1/resource/hkm_mainland_travel_permit.py",
     "lark_oapi/api/document_ai/v1/resource/vat_invoice.py",
     "lark_oapi/api/docx/v1/model/batch_update_chat_announcement_block_request.py",
     "lark_oapi/api/drive/v1/model/patch_permission_public_response_body.py",
@@ -89,6 +92,7 @@
     "samples/api/approval/v4/get_instance_sample.py",
     "samples/api/approval/v4/query_task_sample.py",
     "samples/api/approval/v4/reject_task_sample.py",
+    "samples/api/attendance/v1/query_user_stats_field_sample.py",
     "samples/api/attendance/v1/upload_report_archive_rule_sample.py",
     "samples/api/auth/v3/resend_app_ticket_sample.py",
     "samples/api/bitable/v1/update_app_table_field_sample.py",
@@ -96,6 +100,7 @@
     "samples/api/calendar/v4/batch_freebusy_sample.py",
     "samples/api/calendar/v4/create_timeoff_event_sample.py",
     "samples/api/calendar/v4/delete_timeoff_event_sample.py",
+    "samples/api/calendar/v4/list_calendar_event_sample.py",
     "samples/api/cardkit/v1/update_card_element_sample.py",
     "samples/api/compensation/v1/create_archive_sample.py",
     "samples/api/contact/v3/add_group_member_sample.py",
@@ -117,6 +122,7 @@
     "samples/api/corehr/v2/create_version_cost_allocation_sample.py",
     "samples/api/corehr/v2/list_employees_international_assignment_sample.py",
     "samples/api/corehr/v2/list_job_sample.py",
+    "samples/api/corehr/v2/list_process_sample.py",
     "samples/api/corehr/v2/list_signature_file_sample.py",
     "samples/api/corehr/v2/list_signature_template_info_with_thumbnail_sample.py",
     "samples/api/corehr/v2/query_signature_file_sample.py",
@@ -172,7 +178,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/4198f44cd7caa87b282f1344dd23249d7941649b.nq.gz",
     "call_sites": 114318,
     "import_statements": 28096,
-    "call_targets_resolved": 3909,
+    "call_targets_resolved": 4044,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -186,5 +192,5 @@
     "extends_class_denormalized": 17481,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1854
+  "elapsed_seconds": 1871
 }
