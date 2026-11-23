@@ -8,6 +8,7 @@
     "lark_oapi/api/bitable/v1/model/patch_app_table_form_field_request.py",
     "lark_oapi/api/calendar/v4/model/delete_timeoff_event_request_body.py",
     "lark_oapi/api/corehr/v1/model/p2_corehr_job_data_deleted_v1.py",
+    "lark_oapi/api/corehr/v1/model/patch_person_request.py",
     "lark_oapi/api/corehr/v2/model/search_contract_response_body.py",
     "lark_oapi/api/corehr/v2/resource/employees_international_assignment.py",
     "lark_oapi/api/corehr/v2/resource/position.py",
@@ -23,9 +24,11 @@
     "samples/api/board/v1/theme_whiteboard_sample.py",
     "samples/api/contact/v3/update_job_family_sample.py",
     "samples/api/corehr/v1/get_job_level_sample.py",
+    "samples/api/corehr/v1/match_compensation_standard_sample.py",
     "samples/api/corehr/v2/create_pre_hire_sample.py",
     "samples/api/corehr/v2/list_employees_international_assignment_sample.py",
     "samples/api/corehr/v2/submit_v2_offboarding_sample.py",
+    "samples/api/directory/v1/resurrect_employee_sample.py",
     "samples/api/document_ai/v1/recognize_chinese_passport_sample.py",
     "samples/api/drive/v1/update_permission_member_sample.py",
     "samples/api/helpdesk/v1/create_agent_schedule_sample.py",
@@ -38,7 +41,8 @@
     "samples/api/performance/v2/delete_additional_informations_batch_sample.py",
     "samples/api/task/v1/get_task_comment_sample.py",
     "samples/api/task/v2/add_custom_field_sample.py",
-    "samples/api/vc/v1/get_participant_list_sample.py"
+    "samples/api/vc/v1/get_participant_list_sample.py",
+    "samples/api/vc/v1/list_room_sample.py"
   ],
   "completed_types": [],
   "stats": {
@@ -46,7 +50,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/4198f44cd7caa87b282f1344dd23249d7941649b.nq.gz",
     "call_sites": 114318,
     "import_statements": 28096,
-    "call_targets_resolved": 885,
+    "call_targets_resolved": 979,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -60,5 +64,5 @@
     "extends_class_denormalized": 17481,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1856
+  "elapsed_seconds": 1814
 }
