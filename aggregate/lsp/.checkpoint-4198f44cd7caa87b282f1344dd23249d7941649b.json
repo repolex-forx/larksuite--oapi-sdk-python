@@ -6,6 +6,7 @@
     "lark_oapi/api/acs/v1/model/list_user_request.py",
     "lark_oapi/api/apaas/v1/model/invoke_application_function_response.py",
     "lark_oapi/api/apaas/v1/resource/application_flow.py",
+    "lark_oapi/api/apaas/v1/resource/workspace_table.py",
     "lark_oapi/api/application/v6/model/check_white_black_list_application_visibility_request.py",
     "lark_oapi/api/application/v6/model/department_overview_application_app_usage_request_body.py",
     "lark_oapi/api/application/v6/model/p2_application_application_feedback_created_v6.py",
@@ -25,6 +26,7 @@
     "lark_oapi/api/compensation/v1/model/query_social_archive_adjust_record_request.py",
     "lark_oapi/api/contact/v3/model/get_functional_role_member_request_body.py",
     "lark_oapi/api/contact/v3/resource/job_title.py",
+    "lark_oapi/api/corehr/v1/model/list_job_request_body.py",
     "lark_oapi/api/corehr/v1/model/p2_corehr_job_data_deleted_v1.py",
     "lark_oapi/api/corehr/v1/model/p2_corehr_org_role_authorization_updated_v1.py",
     "lark_oapi/api/corehr/v1/model/patch_person_request.py",
@@ -57,8 +59,10 @@
     "lark_oapi/api/hire/v1/model/query_agency_request_body.py",
     "lark_oapi/api/hire/v1/model/update_result_eco_exam_request.py",
     "lark_oapi/api/hire/v1/resource/external_interview_assessment.py",
+    "lark_oapi/api/im/v1/model/p2_im_message_reaction_created_v1.py",
     "lark_oapi/api/im/v1/resource/message.py",
     "lark_oapi/api/mdm/v3/model/major.py",
+    "lark_oapi/api/meeting_room/v1/model/p2_meeting_room_meeting_room_status_changed_v1.py",
     "lark_oapi/api/okr/v1/resource/progress_record.py",
     "lark_oapi/api/payroll/v1/model/cost_allocation_plan.py",
     "lark_oapi/api/payroll/v1/resource/datasource_record.py",
@@ -95,6 +99,7 @@
     "samples/api/attendance/v1/query_user_stats_field_sample.py",
     "samples/api/attendance/v1/upload_report_archive_rule_sample.py",
     "samples/api/auth/v3/resend_app_ticket_sample.py",
+    "samples/api/bitable/v1/list_app_table_field_sample.py",
     "samples/api/bitable/v1/update_app_table_field_sample.py",
     "samples/api/board/v1/theme_whiteboard_sample.py",
     "samples/api/calendar/v4/batch_freebusy_sample.py",
@@ -135,6 +140,7 @@
     "samples/api/document_ai/v1/recognize_chinese_passport_sample.py",
     "samples/api/drive/v1/update_permission_member_sample.py",
     "samples/api/helpdesk/v1/create_agent_schedule_sample.py",
+    "samples/api/helpdesk/v1/get_agent_schedules_sample.py",
     "samples/api/hire/v1/combined_update_job_sample.py",
     "samples/api/hire/v1/create_job_requirement_sample.py",
     "samples/api/hire/v1/list_by_id_job_requirement_sample.py",
@@ -170,7 +176,8 @@
     "samples/api/vc/v1/get_participant_list_sample.py",
     "samples/api/vc/v1/kickout_meeting_sample.py",
     "samples/api/vc/v1/list_room_sample.py",
-    "samples/api/vc/v1/set_room_access_code_room_config_sample.py"
+    "samples/api/vc/v1/set_room_access_code_room_config_sample.py",
+    "samples/card/flask_sample.py"
   ],
   "completed_types": [],
   "stats": {
@@ -178,7 +185,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/4198f44cd7caa87b282f1344dd23249d7941649b.nq.gz",
     "call_sites": 114318,
     "import_statements": 28096,
-    "call_targets_resolved": 4044,
+    "call_targets_resolved": 4195,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -192,5 +199,5 @@
     "extends_class_denormalized": 17481,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1871
+  "elapsed_seconds": 1819
 }
