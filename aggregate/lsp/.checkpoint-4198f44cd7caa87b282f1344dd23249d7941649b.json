@@ -28,10 +28,12 @@
     "lark_oapi/api/hire/v1/model/update_result_eco_exam_request.py",
     "lark_oapi/api/mdm/v3/model/major.py",
     "lark_oapi/api/okr/v1/resource/progress_record.py",
+    "lark_oapi/api/payroll/v1/model/cost_allocation_plan.py",
     "lark_oapi/api/payroll/v1/resource/datasource_record.py",
     "lark_oapi/api/search/v2/model/delete_data_source_response.py",
     "lark_oapi/api/task/v1/model/get_task_request_body.py",
     "lark_oapi/api/task/v2/model/remove_members_task_request.py",
+    "lark_oapi/api/task/v2/resource/custom_field.py",
     "lark_oapi/api/verification/v1/model/department_id.py",
     "lark_oapi/ws/model.py",
     "samples/api/aily/v1/delete_aily_session_sample.py",
@@ -40,6 +42,7 @@
     "samples/api/application/v6/department_overview_application_app_usage_sample.py",
     "samples/api/application/v6/patch_application_feedback_sample.py",
     "samples/api/approval/v4/get_instance_sample.py",
+    "samples/api/attendance/v1/upload_report_archive_rule_sample.py",
     "samples/api/auth/v3/resend_app_ticket_sample.py",
     "samples/api/bitable/v1/update_app_table_field_sample.py",
     "samples/api/board/v1/theme_whiteboard_sample.py",
@@ -93,7 +96,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/4198f44cd7caa87b282f1344dd23249d7941649b.nq.gz",
     "call_sites": 114318,
     "import_statements": 28096,
-    "call_targets_resolved": 2088,
+    "call_targets_resolved": 2210,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -107,5 +110,5 @@
     "extends_class_denormalized": 17481,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1866
+  "elapsed_seconds": 1815
 }
