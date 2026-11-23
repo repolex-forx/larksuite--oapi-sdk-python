@@ -8,6 +8,7 @@
     "lark_oapi/api/application/v6/model/department_overview_application_app_usage_request_body.py",
     "lark_oapi/api/application/v6/resource/application_app_usage.py",
     "lark_oapi/api/attendance/v1/model/delete_group_response.py",
+    "lark_oapi/api/authen/v1/resource/oidc_access_token.py",
     "lark_oapi/api/baike/v1/resource/entity.py",
     "lark_oapi/api/bitable/v1/model/app_table.py",
     "lark_oapi/api/bitable/v1/model/copy_app_dashboard_request.py",
@@ -37,6 +38,7 @@
     "lark_oapi/api/hire/v1/model/p2_hire_talent_tag_subscription_v1.py",
     "lark_oapi/api/hire/v1/model/query_agency_request_body.py",
     "lark_oapi/api/hire/v1/model/update_result_eco_exam_request.py",
+    "lark_oapi/api/hire/v1/resource/external_interview_assessment.py",
     "lark_oapi/api/mdm/v3/model/major.py",
     "lark_oapi/api/okr/v1/resource/progress_record.py",
     "lark_oapi/api/payroll/v1/model/cost_allocation_plan.py",
@@ -59,6 +61,7 @@
     "samples/api/application/v6/department_overview_application_app_usage_sample.py",
     "samples/api/application/v6/patch_application_feedback_sample.py",
     "samples/api/approval/v4/get_instance_sample.py",
+    "samples/api/approval/v4/query_task_sample.py",
     "samples/api/attendance/v1/upload_report_archive_rule_sample.py",
     "samples/api/auth/v3/resend_app_ticket_sample.py",
     "samples/api/bitable/v1/update_app_table_field_sample.py",
@@ -76,6 +79,7 @@
     "samples/api/corehr/v1/delete_leave_granting_record_sample.py",
     "samples/api/corehr/v1/get_job_level_sample.py",
     "samples/api/corehr/v1/match_compensation_standard_sample.py",
+    "samples/api/corehr/v1/patch_employment_sample.py",
     "samples/api/corehr/v1/patch_job_sample.py",
     "samples/api/corehr/v1/remove_role_assign_authorization_sample.py",
     "samples/api/corehr/v2/create_job_change_sample.py",
@@ -112,6 +116,7 @@
     "samples/api/okr/v1/patch_period_sample.py",
     "samples/api/performance/v2/delete_additional_informations_batch_sample.py",
     "samples/api/performance/v2/query_review_data_sample.py",
+    "samples/api/search/v2/create_message_sample.py",
     "samples/api/sheets/v3/patch_spreadsheet_sheet_filter_view_sample.py",
     "samples/api/task/v1/get_task_comment_sample.py",
     "samples/api/task/v2/add_custom_field_sample.py",
@@ -127,7 +132,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/4198f44cd7caa87b282f1344dd23249d7941649b.nq.gz",
     "call_sites": 114318,
     "import_statements": 28096,
-    "call_targets_resolved": 2831,
+    "call_targets_resolved": 2958,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -141,5 +146,5 @@
     "extends_class_denormalized": 17481,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1805
+  "elapsed_seconds": 1807
 }
