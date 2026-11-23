@@ -28,12 +28,15 @@
     "lark_oapi/api/task/v1/model/get_task_request_body.py",
     "lark_oapi/api/task/v2/model/remove_members_task_request.py",
     "lark_oapi/api/verification/v1/model/department_id.py",
+    "lark_oapi/ws/model.py",
+    "samples/api/apaas/v1/query_user_task_sample.py",
     "samples/api/apaas/v1/sql_commands_workspace_sample.py",
     "samples/api/application/v6/patch_application_feedback_sample.py",
     "samples/api/approval/v4/get_instance_sample.py",
     "samples/api/auth/v3/resend_app_ticket_sample.py",
     "samples/api/bitable/v1/update_app_table_field_sample.py",
     "samples/api/board/v1/theme_whiteboard_sample.py",
+    "samples/api/compensation/v1/create_archive_sample.py",
     "samples/api/contact/v3/resurrect_user_sample.py",
     "samples/api/contact/v3/simplelist_group_member_sample.py",
     "samples/api/contact/v3/update_job_family_sample.py",
@@ -78,7 +81,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/4198f44cd7caa87b282f1344dd23249d7941649b.nq.gz",
     "call_sites": 114318,
     "import_statements": 28096,
-    "call_targets_resolved": 1673,
+    "call_targets_resolved": 1782,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -92,5 +95,5 @@
     "extends_class_denormalized": 17481,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1807
+  "elapsed_seconds": 1831
 }
