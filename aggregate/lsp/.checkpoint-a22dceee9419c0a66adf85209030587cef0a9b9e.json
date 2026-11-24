@@ -1,13 +1,26 @@
 {
   "commit_sha": "a22dceee9419c0a66adf85209030587cef0a9b9e",
   "completed_files": [
+    "lark_oapi/api/aily/v1/model/data_asset_chunk.py",
     "lark_oapi/api/apaas/v1/resource/application_record_permission_member.py",
+    "lark_oapi/api/calendar/v4/model/list_calendar_response_body.py",
+    "lark_oapi/api/compensation/v1/model/list_indicator_response.py",
     "lark_oapi/api/contact/v3/resource/group_member.py",
+    "lark_oapi/api/corehr/v1/resource/working_hours_type.py",
+    "lark_oapi/api/corehr/v2/resource/process_form_variable_data.py",
     "lark_oapi/api/document_ai/v1/model/recognize_id_card_response.py",
+    "lark_oapi/api/docx/v1/model/get_document_block_response.py",
+    "lark_oapi/api/hire/v1/model/batch_delete_eco_exam_paper_response_body.py",
+    "lark_oapi/api/hire/v1/model/external_offer.py",
+    "lark_oapi/api/im/v2/model/feed_group_rules.py",
     "lark_oapi/api/security_and_compliance/v2/resource/device_record.py",
+    "samples/api/baike/v1/update_entity_sample.py",
     "samples/api/contact/v3/update_employee_type_enum_sample.py",
+    "samples/api/im/v1/patch_chat_announcement_sample.py",
     "samples/api/im/v1/patch_message_sample.py",
-    "samples/api/sheets/v3/create_spreadsheet_sample.py"
+    "samples/api/sheets/v3/create_spreadsheet_sample.py",
+    "samples/api/sheets/v3/delete_spreadsheet_sheet_filter_view_condition_sample.py",
+    "samples/api/vc/v1/create_room_sample.py"
   ],
   "completed_types": [],
   "stats": {
@@ -15,7 +28,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/a22dceee9419c0a66adf85209030587cef0a9b9e.nq.gz",
     "call_sites": 114251,
     "import_statements": 28090,
-    "call_targets_resolved": 270,
+    "call_targets_resolved": 519,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -29,5 +42,5 @@
     "extends_class_denormalized": 17476,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1833
+  "elapsed_seconds": 1817
 }
