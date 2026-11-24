@@ -1,0 +1,24 @@
+[2026-11-23T23:48:39Z] === ENRICH ITERATION 35 START | repo=larksuite/oapi-sdk-python sha=4198f44c ===
+[2026-11-23T23:48:39Z] [iter=35] PHASE START: enrich repo=larksuite/oapi-sdk-python sha=4198f44c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/4198f44c-enrich-iter-035.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/4198f44cd7caa87b282f1344dd23249d7941649b.nq.gz
+[2026-11-23T23:48:39Z] [iter=35] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-23T23:55:53Z] [iter=35] AST store loaded triples=26004218 load_secs=428 mem_mb=1180 MB
+[2026-11-23T23:55:53Z] [iter=35] Step 2: Finding LSP targets mem_mb=1180 MB
+[2026-11-23T23:56:59Z] [iter=35] LSP targets found call_sites=114318 imports=28096 extends=17490 implements=0 secs=66
+[2026-11-23T23:57:11Z] [iter=35] Loaded checkpoint partial graph triples=302191
+[2026-11-23T23:57:11Z] [iter=35] Primed enclosing-def cache from persisted triples entries=1151
+[2026-11-23T23:58:14Z] [iter=35] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1180 MB
+[2026-11-24T00:00:13Z] [iter=35] Position index built positions=1781964 nodes_with_types=2298912 secs=119 mem_mb=4519 MB
+[2026-11-24T00:00:13Z] [iter=35] Step 3: Starting LSP resolution mem_mb=4519 MB already_completed_types=[] already_completed_files=211
+[2026-11-24T00:00:13Z] [iter=35] Resolving target type target_type=call_site count=114318
+[2026-11-24T00:00:14Z] [iter=35] HEARTBEAT target_type=call_site elapsed_min=11.6 files_done=0 resolved=0 errors=0 current=lark_oapi/api/mail/v1/resource/user_mailbox_alias.py
+[2026-11-24T00:02:37Z] [iter=35] HEARTBEAT target_type=call_site elapsed_min=14.0 files_done=1 resolved=30 errors=0 current=samples/api/corehr/v1/create_leave_granting_record_sample.py
+[2026-11-24T00:08:04Z] [iter=35] HEARTBEAT target_type=call_site elapsed_min=19.4 files_done=2 resolved=83 errors=0 current=samples/api/performance/v2/query_indicator_sample.py
+[2026-11-24T00:09:29Z] [iter=35] HEARTBEAT target_type=call_site elapsed_min=20.8 files_done=3 resolved=100 errors=0 current=lark_oapi/api/corehr/v1/model/list_subregion_response.py
+[2026-11-24T00:10:16Z] [iter=35] HEARTBEAT target_type=call_site elapsed_min=21.6 files_done=6 resolved=111 errors=0 current=samples/api/contact/v3/create_user_sample.py
+[2026-11-24T00:12:38Z] [iter=35] HEARTBEAT target_type=call_site elapsed_min=24.0 files_done=7 resolved=128 errors=0 current=samples/api/cardkit/v1/settings_card_sample.py
+[2026-11-24T00:14:08Z] [iter=35] HEARTBEAT target_type=call_site elapsed_min=25.5 files_done=8 resolved=147 errors=0 current=lark_oapi/api/apaas/v1/resource/application_audit_log.py
+[2026-11-24T00:17:14Z] [iter=35] HEARTBEAT target_type=call_site elapsed_min=28.6 files_done=9 resolved=187 errors=0 current=samples/api/wiki/v2/list_space_node_sample.py
+[2026-11-24T00:18:45Z] [iter=35] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=220 new_files_this_iter=9 mem_mb=4522 MB
+[2026-11-24T00:18:45Z] [iter=35] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/4198f44cd7caa87b282f1344dd23249d7941649b.nq.gz triples=304123
+[2026-11-24T00:18:47Z] [iter=35] Checkpoint written, exiting with code 7
+[2026-11-24T00:18:47Z] [iter=35] PHASE END: enrich (checkpointed) elapsed_s=1806 elapsed_min=30.1 files_completed=220
