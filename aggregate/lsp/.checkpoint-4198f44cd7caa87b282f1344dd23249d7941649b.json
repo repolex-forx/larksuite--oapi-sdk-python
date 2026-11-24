@@ -137,6 +137,7 @@
     "samples/api/acs/v1/list_user_sample.py",
     "samples/api/acs/v1/patch_user_sample.py",
     "samples/api/acs/v1/update_user_face_sample.py",
+    "samples/api/aily/v1/create_app_data_asset_sample.py",
     "samples/api/aily/v1/delete_aily_session_sample.py",
     "samples/api/aily/v1/list_app_data_asset_tag_sample.py",
     "samples/api/apaas/v1/batch_create_authorization_application_role_member_sample.py",
@@ -157,6 +158,7 @@
     "samples/api/attendance/v1/upload_report_archive_rule_sample.py",
     "samples/api/auth/v3/resend_app_ticket_sample.py",
     "samples/api/bitable/v1/copy_app_sample.py",
+    "samples/api/bitable/v1/create_app_table_record_sample.py",
     "samples/api/bitable/v1/list_app_table_field_sample.py",
     "samples/api/bitable/v1/update_app_table_field_sample.py",
     "samples/api/board/v1/theme_whiteboard_sample.py",
@@ -208,6 +210,7 @@
     "samples/api/corehr/v2/query_timeline_department_sample.py",
     "samples/api/corehr/v2/search_basic_info_country_region_subdivision_sample.py",
     "samples/api/corehr/v2/search_cost_center_sample.py",
+    "samples/api/corehr/v2/search_department_sample.py",
     "samples/api/corehr/v2/search_enum_sample.py",
     "samples/api/corehr/v2/search_signature_template_sample.py",
     "samples/api/corehr/v2/submit_v2_offboarding_sample.py",
@@ -238,6 +241,7 @@
     "samples/api/im/v1/create_chat_menu_tree_sample.py",
     "samples/api/im/v1/delete_chat_members_sample.py",
     "samples/api/im/v1/get_chat_moderation_sample.py",
+    "samples/api/im/v1/link_chat_sample.py",
     "samples/api/im/v1/list_message_sample.py",
     "samples/api/im/v1/merge_forward_message_sample.py",
     "samples/api/im/v1/update_message_sample.py",
@@ -264,6 +268,7 @@
     "samples/api/task/v1/patch_task_sample.py",
     "samples/api/task/v2/add_custom_field_sample.py",
     "samples/api/task/v2/create_tasklist_sample.py",
+    "samples/api/task/v2/remove_members_tasklist_sample.py",
     "samples/api/vc/v1/download_export_sample.py",
     "samples/api/vc/v1/end_meeting_sample.py",
     "samples/api/vc/v1/get_participant_list_sample.py",
@@ -282,7 +287,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/4198f44cd7caa87b282f1344dd23249d7941649b.nq.gz",
     "call_sites": 114318,
     "import_statements": 28096,
-    "call_targets_resolved": 6964,
+    "call_targets_resolved": 7118,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -296,5 +301,5 @@
     "extends_class_denormalized": 17481,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1821
+  "elapsed_seconds": 1820
 }
