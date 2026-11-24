@@ -30,6 +30,7 @@
     "lark_oapi/api/calendar/v4/model/delete_timeoff_event_request_body.py",
     "lark_oapi/api/calendar/v4/model/list_calendar_event_attendee_response_body.py",
     "lark_oapi/api/calendar/v4/model/unsubscribe_calendar_request.py",
+    "lark_oapi/api/calendar/v4/resource/calendar_acl.py",
     "lark_oapi/api/cardkit/v1/model/callback_action_context.py",
     "lark_oapi/api/cardkit/v1/model/patch_card_element_response_body.py",
     "lark_oapi/api/compensation/v1/model/query_social_archive_adjust_record_request.py",
@@ -69,6 +70,7 @@
     "lark_oapi/api/document_ai/v1/resource/vat_invoice.py",
     "lark_oapi/api/docx/v1/model/batch_update_chat_announcement_block_request.py",
     "lark_oapi/api/drive/v1/model/patch_permission_public_response_body.py",
+    "lark_oapi/api/drive/v1/model/upload_finish_file_response.py",
     "lark_oapi/api/drive/v1/processor.py",
     "lark_oapi/api/drive/v1/resource/file.py",
     "lark_oapi/api/drive/v2/model/biz_info.py",
@@ -95,6 +97,7 @@
     "lark_oapi/api/im/v1/model/user_id.py",
     "lark_oapi/api/im/v1/resource/message.py",
     "lark_oapi/api/im/v2/model/create_biz_entity_tag_relation_request.py",
+    "lark_oapi/api/lingo/v1/model/doc_image.py",
     "lark_oapi/api/mail/v1/resource/user_mailbox_alias.py",
     "lark_oapi/api/mail/v1/resource/user_mailbox_message_attachment.py",
     "lark_oapi/api/mdm/v3/model/major.py",
@@ -112,6 +115,7 @@
     "lark_oapi/api/sheets/v3/resource/spreadsheet_sheet_float_image.py",
     "lark_oapi/api/task/v1/model/get_task_request_body.py",
     "lark_oapi/api/task/v1/version.py",
+    "lark_oapi/api/task/v2/model/add_reminders_task_request_body.py",
     "lark_oapi/api/task/v2/model/patch_custom_field_request.py",
     "lark_oapi/api/task/v2/model/patch_tasklist_activity_subscription_request.py",
     "lark_oapi/api/task/v2/model/remove_members_task_request.py",
@@ -167,6 +171,7 @@
     "samples/api/contact/v3/add_group_member_sample.py",
     "samples/api/contact/v3/create_user_sample.py",
     "samples/api/contact/v3/delete_functional_role_sample.py",
+    "samples/api/contact/v3/list_functional_role_member_sample.py",
     "samples/api/contact/v3/resurrect_user_sample.py",
     "samples/api/contact/v3/simplelist_group_member_sample.py",
     "samples/api/contact/v3/update_job_family_sample.py",
@@ -198,6 +203,7 @@
     "samples/api/corehr/v2/open_query_job_change_list_by_ids_approval_groups_sample.py",
     "samples/api/corehr/v2/patch_custom_org_sample.py",
     "samples/api/corehr/v2/query_multi_timeline_job_sample.py",
+    "samples/api/corehr/v2/query_recent_change_job_grade_sample.py",
     "samples/api/corehr/v2/query_signature_file_sample.py",
     "samples/api/corehr/v2/query_timeline_department_sample.py",
     "samples/api/corehr/v2/search_basic_info_country_region_subdivision_sample.py",
@@ -236,6 +242,7 @@
     "samples/api/im/v1/merge_forward_message_sample.py",
     "samples/api/im/v1/update_message_sample.py",
     "samples/api/im/v2/get_biz_entity_tag_relation_sample.py",
+    "samples/api/im/v2/patch_tag_sample.py",
     "samples/api/lingo/v1/get_entity_sample.py",
     "samples/api/lingo/v1/highlight_entity_sample.py",
     "samples/api/mail/v1/delete_mailgroup_alias_sample.py",
@@ -266,7 +273,8 @@
     "samples/api/vc/v1/set_room_access_code_room_config_sample.py",
     "samples/api/wiki/v2/get_task_sample.py",
     "samples/api/wiki/v2/list_space_node_sample.py",
-    "samples/card/flask_sample.py"
+    "samples/card/flask_sample.py",
+    "setup.py"
   ],
   "completed_types": [],
   "stats": {
@@ -274,7 +282,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/4198f44cd7caa87b282f1344dd23249d7941649b.nq.gz",
     "call_sites": 114318,
     "import_statements": 28096,
-    "call_targets_resolved": 6825,
+    "call_targets_resolved": 6964,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -288,5 +296,5 @@
     "extends_class_denormalized": 17481,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1879
+  "elapsed_seconds": 1821
 }
