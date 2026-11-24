@@ -82,6 +82,7 @@
     "lark_oapi/api/im/v1/model/p2_im_message_reaction_created_v1.py",
     "lark_oapi/api/im/v1/model/pined_message.py",
     "lark_oapi/api/im/v1/resource/message.py",
+    "lark_oapi/api/im/v2/model/create_biz_entity_tag_relation_request.py",
     "lark_oapi/api/mail/v1/resource/user_mailbox_alias.py",
     "lark_oapi/api/mdm/v3/model/major.py",
     "lark_oapi/api/meeting_room/v1/model/p2_meeting_room_meeting_room_status_changed_v1.py",
@@ -177,6 +178,7 @@
     "samples/api/document_ai/v1/recognize_chinese_passport_sample.py",
     "samples/api/docx/v1/list_document_block_sample.py",
     "samples/api/drive/v1/update_permission_member_sample.py",
+    "samples/api/drive/v1/upload_part_file_sample.py",
     "samples/api/helpdesk/v1/create_agent_schedule_sample.py",
     "samples/api/helpdesk/v1/get_agent_schedules_sample.py",
     "samples/api/helpdesk/v1/list_ticket_sample.py",
@@ -199,6 +201,7 @@
     "samples/api/lingo/v1/get_entity_sample.py",
     "samples/api/lingo/v1/highlight_entity_sample.py",
     "samples/api/mail/v1/list_user_mailbox_folder_sample.py",
+    "samples/api/mdm/v3/get_batch_country_region_sample.py",
     "samples/api/okr/v1/list_period_rule_sample.py",
     "samples/api/okr/v1/patch_period_sample.py",
     "samples/api/okr/v1/upload_image_sample.py",
@@ -220,6 +223,7 @@
     "samples/api/vc/v1/list_room_sample.py",
     "samples/api/vc/v1/set_room_access_code_room_config_sample.py",
     "samples/api/wiki/v2/get_task_sample.py",
+    "samples/api/wiki/v2/list_space_node_sample.py",
     "samples/card/flask_sample.py"
   ],
   "completed_types": [],
@@ -228,7 +232,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/4198f44cd7caa87b282f1344dd23249d7941649b.nq.gz",
     "call_sites": 114318,
     "import_statements": 28096,
-    "call_targets_resolved": 5196,
+    "call_targets_resolved": 5318,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -242,5 +246,5 @@
     "extends_class_denormalized": 17481,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1805
+  "elapsed_seconds": 1887
 }
