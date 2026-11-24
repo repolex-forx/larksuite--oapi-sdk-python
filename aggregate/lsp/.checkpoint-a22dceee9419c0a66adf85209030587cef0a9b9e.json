@@ -7,6 +7,7 @@
     "lark_oapi/api/application/v6/model/list_app_recommend_rule_response_body.py",
     "lark_oapi/api/approval/v4/model/cancel_instance_request.py",
     "lark_oapi/api/bitable/v1/model/delete_record.py",
+    "lark_oapi/api/bitable/v1/resource/app_role.py",
     "lark_oapi/api/calendar/v4/model/list_calendar_response_body.py",
     "lark_oapi/api/compensation/v1/model/list_indicator_response.py",
     "lark_oapi/api/contact/v3/model/custom_attr.py",
@@ -16,6 +17,7 @@
     "lark_oapi/api/corehr/v2/model/process_done_item.py",
     "lark_oapi/api/corehr/v2/resource/pre_hire.py",
     "lark_oapi/api/corehr/v2/resource/process_form_variable_data.py",
+    "lark_oapi/api/directory/v1/model/update_job_level.py",
     "lark_oapi/api/document_ai/v1/model/recognize_id_card_response.py",
     "lark_oapi/api/docx/v1/model/get_document_block_response.py",
     "lark_oapi/api/hire/v1/model/batch_delete_eco_exam_paper_response_body.py",
@@ -26,10 +28,12 @@
     "lark_oapi/api/mdm/v3/model/list_country_region_response.py",
     "lark_oapi/api/security_and_compliance/v1/model/task_status.py",
     "lark_oapi/api/security_and_compliance/v2/resource/device_record.py",
+    "lark_oapi/api/vc/v1/model/delete_room_response.py",
     "lark_oapi/ws/client.py",
     "lark_oapi/ws/pb/google/protobuf/text_format.py",
     "samples/api/acs/v1/delete_visitor_sample.py",
     "samples/api/application/v6/check_white_black_list_application_visibility_sample.py",
+    "samples/api/application/v6/get_application_sample.py",
     "samples/api/baike/v1/update_entity_sample.py",
     "samples/api/bitable/v1/patch_app_table_form_sample.py",
     "samples/api/board/v1/list_whiteboard_node_sample.py",
@@ -43,10 +47,12 @@
     "samples/api/im/v1/patch_chat_announcement_sample.py",
     "samples/api/im/v1/patch_message_sample.py",
     "samples/api/lingo/v1/update_draft_sample.py",
+    "samples/api/mail/v1/create_public_mailbox_alias_sample.py",
     "samples/api/mail/v1/send_user_mailbox_message_sample.py",
     "samples/api/search/v2/get_data_source_item_sample.py",
     "samples/api/sheets/v3/create_spreadsheet_sample.py",
     "samples/api/sheets/v3/delete_spreadsheet_sheet_filter_view_condition_sample.py",
+    "samples/api/task/v2/remove_dependencies_task_sample.py",
     "samples/api/vc/v1/create_room_sample.py"
   ],
   "completed_types": [],
@@ -55,7 +61,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/a22dceee9419c0a66adf85209030587cef0a9b9e.nq.gz",
     "call_sites": 114251,
     "import_statements": 28090,
-    "call_targets_resolved": 1596,
+    "call_targets_resolved": 1721,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -69,5 +75,5 @@
     "extends_class_denormalized": 17476,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1869
+  "elapsed_seconds": 1853
 }
