@@ -5,10 +5,13 @@
     "lark_oapi/api/apaas/v1/resource/application_record_permission_member.py",
     "lark_oapi/api/application/v6/model/list_app_recommend_rule_response_body.py",
     "lark_oapi/api/approval/v4/model/cancel_instance_request.py",
+    "lark_oapi/api/bitable/v1/model/delete_record.py",
     "lark_oapi/api/calendar/v4/model/list_calendar_response_body.py",
     "lark_oapi/api/compensation/v1/model/list_indicator_response.py",
+    "lark_oapi/api/contact/v3/model/custom_attr.py",
     "lark_oapi/api/contact/v3/resource/group_member.py",
     "lark_oapi/api/corehr/v1/resource/working_hours_type.py",
+    "lark_oapi/api/corehr/v2/model/dimension_entity.py",
     "lark_oapi/api/corehr/v2/model/process_done_item.py",
     "lark_oapi/api/corehr/v2/resource/pre_hire.py",
     "lark_oapi/api/corehr/v2/resource/process_form_variable_data.py",
@@ -22,6 +25,7 @@
     "lark_oapi/api/mdm/v3/model/list_country_region_response.py",
     "lark_oapi/api/security_and_compliance/v2/resource/device_record.py",
     "lark_oapi/ws/pb/google/protobuf/text_format.py",
+    "samples/api/acs/v1/delete_visitor_sample.py",
     "samples/api/application/v6/check_white_black_list_application_visibility_sample.py",
     "samples/api/baike/v1/update_entity_sample.py",
     "samples/api/bitable/v1/patch_app_table_form_sample.py",
@@ -29,7 +33,9 @@
     "samples/api/contact/v3/update_employee_type_enum_sample.py",
     "samples/api/corehr/v1/leave_balances_leave_sample.py",
     "samples/api/corehr/v2/patch_location_address_sample.py",
+    "samples/api/drive/v1/batch_query_file_comment_sample.py",
     "samples/api/hire/v1/search_website_job_post_sample.py",
+    "samples/api/hire/v1/update_config_job_sample.py",
     "samples/api/im/v1/patch_chat_announcement_sample.py",
     "samples/api/im/v1/patch_message_sample.py",
     "samples/api/lingo/v1/update_draft_sample.py",
@@ -45,7 +51,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/a22dceee9419c0a66adf85209030587cef0a9b9e.nq.gz",
     "call_sites": 114251,
     "import_statements": 28090,
-    "call_targets_resolved": 1356,
+    "call_targets_resolved": 1438,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -59,5 +65,5 @@
     "extends_class_denormalized": 17476,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1815
+  "elapsed_seconds": 1833
 }
