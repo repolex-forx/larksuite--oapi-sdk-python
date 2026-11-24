@@ -56,6 +56,7 @@
     "lark_oapi/api/security_and_compliance/v2/resource/device_record.py",
     "lark_oapi/api/vc/v1/model/delete_room_response.py",
     "lark_oapi/ws/client.py",
+    "lark_oapi/ws/pb/google/protobuf/descriptor_pb2.py",
     "lark_oapi/ws/pb/google/protobuf/text_format.py",
     "samples/api/acs/v1/delete_visitor_sample.py",
     "samples/api/aily/v1/get_aily_session_run_sample.py",
@@ -88,6 +89,7 @@
     "samples/api/im/v1/get_file_sample.py",
     "samples/api/im/v1/patch_chat_announcement_sample.py",
     "samples/api/im/v1/patch_message_sample.py",
+    "samples/api/im/v1/update_chat_sample.py",
     "samples/api/lingo/v1/update_draft_sample.py",
     "samples/api/mail/v1/create_public_mailbox_alias_sample.py",
     "samples/api/mail/v1/list_user_mailbox_alias_sample.py",
@@ -108,7 +110,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/a22dceee9419c0a66adf85209030587cef0a9b9e.nq.gz",
     "call_sites": 114251,
     "import_statements": 28090,
-    "call_targets_resolved": 2941,
+    "call_targets_resolved": 3052,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -122,5 +124,5 @@
     "extends_class_denormalized": 17476,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1824
+  "elapsed_seconds": 1884
 }
