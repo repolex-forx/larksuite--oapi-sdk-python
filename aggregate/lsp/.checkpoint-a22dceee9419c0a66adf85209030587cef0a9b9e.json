@@ -62,6 +62,7 @@
     "lark_oapi/ws/pb/google/protobuf/text_format.py",
     "samples/api/acs/v1/delete_visitor_sample.py",
     "samples/api/aily/v1/get_aily_session_run_sample.py",
+    "samples/api/apaas/v1/views_get_workspace_view_sample.py",
     "samples/api/application/v6/check_white_black_list_application_visibility_sample.py",
     "samples/api/application/v6/get_application_sample.py",
     "samples/api/approval/v4/list_instance_sample.py",
@@ -86,6 +87,7 @@
     "samples/api/drive/v1/list_file_sample.py",
     "samples/api/drive/v1/subscribe_file_sample.py",
     "samples/api/helpdesk/v1/list_ticket_sample.py",
+    "samples/api/helpdesk/v1/patch_agent_sample.py",
     "samples/api/hire/v1/create_exam_sample.py",
     "samples/api/hire/v1/list_external_application_sample.py",
     "samples/api/hire/v1/search_website_job_post_sample.py",
@@ -107,7 +109,9 @@
     "samples/api/task/v1/list_task_collaborator_sample.py",
     "samples/api/task/v2/create_custom_field_sample.py",
     "samples/api/task/v2/remove_dependencies_task_sample.py",
-    "samples/api/vc/v1/create_room_sample.py"
+    "samples/api/vc/v1/create_room_sample.py",
+    "samples/api/vc/v1/get_room_sample.py",
+    "samples/api/vc/v1/stop_meeting_recording_sample.py"
   ],
   "completed_types": [],
   "stats": {
@@ -115,7 +119,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/a22dceee9419c0a66adf85209030587cef0a9b9e.nq.gz",
     "call_sites": 114251,
     "import_statements": 28090,
-    "call_targets_resolved": 3173,
+    "call_targets_resolved": 3315,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -129,5 +133,5 @@
     "extends_class_denormalized": 17476,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1857
+  "elapsed_seconds": 1833
 }
