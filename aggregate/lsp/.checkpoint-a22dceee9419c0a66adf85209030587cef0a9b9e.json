@@ -14,7 +14,10 @@
     "lark_oapi/api/hire/v1/model/batch_delete_eco_exam_paper_response_body.py",
     "lark_oapi/api/hire/v1/model/external_offer.py",
     "lark_oapi/api/im/v2/model/feed_group_rules.py",
+    "lark_oapi/api/mdm/v3/model/list_country_region_response.py",
     "lark_oapi/api/security_and_compliance/v2/resource/device_record.py",
+    "lark_oapi/ws/pb/google/protobuf/text_format.py",
+    "samples/api/application/v6/check_white_black_list_application_visibility_sample.py",
     "samples/api/baike/v1/update_entity_sample.py",
     "samples/api/bitable/v1/patch_app_table_form_sample.py",
     "samples/api/contact/v3/update_employee_type_enum_sample.py",
@@ -31,7 +34,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/a22dceee9419c0a66adf85209030587cef0a9b9e.nq.gz",
     "call_sites": 114251,
     "import_statements": 28090,
-    "call_targets_resolved": 781,
+    "call_targets_resolved": 1058,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -45,5 +48,5 @@
     "extends_class_denormalized": 17476,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1811
+  "elapsed_seconds": 1846
 }
