@@ -14,6 +14,7 @@
     "lark_oapi/api/bitable/v1/model/delete_record.py",
     "lark_oapi/api/bitable/v1/resource/app_role.py",
     "lark_oapi/api/calendar/v4/model/list_calendar_response_body.py",
+    "lark_oapi/api/cardkit/v1/resource/card_element.py",
     "lark_oapi/api/compensation/v1/model/list_indicator_response.py",
     "lark_oapi/api/contact/v3/model/custom_attr.py",
     "lark_oapi/api/contact/v3/model/list_custom_attr_request_body.py",
@@ -68,6 +69,7 @@
     "samples/api/calendar/v4/subscription_calendar_acl_sample.py",
     "samples/api/calendar/v4/subscription_calendar_sample.py",
     "samples/api/contact/v3/create_job_level_sample.py",
+    "samples/api/contact/v3/parent_department_sample.py",
     "samples/api/contact/v3/patch_group_sample.py",
     "samples/api/contact/v3/update_employee_type_enum_sample.py",
     "samples/api/contact/v3/update_user_id_user_sample.py",
@@ -94,6 +96,7 @@
     "samples/api/search/v2/get_data_source_item_sample.py",
     "samples/api/sheets/v3/create_spreadsheet_sample.py",
     "samples/api/sheets/v3/delete_spreadsheet_sheet_filter_view_condition_sample.py",
+    "samples/api/sheets/v3/update_spreadsheet_sheet_filter_view_condition_sample.py",
     "samples/api/task/v1/list_task_collaborator_sample.py",
     "samples/api/task/v2/create_custom_field_sample.py",
     "samples/api/task/v2/remove_dependencies_task_sample.py",
@@ -105,7 +108,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/a22dceee9419c0a66adf85209030587cef0a9b9e.nq.gz",
     "call_sites": 114251,
     "import_statements": 28090,
-    "call_targets_resolved": 2587,
+    "call_targets_resolved": 2821,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -119,5 +122,5 @@
     "extends_class_denormalized": 17476,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1806
+  "elapsed_seconds": 1808
 }
