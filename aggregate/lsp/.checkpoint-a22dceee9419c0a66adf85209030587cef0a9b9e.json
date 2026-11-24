@@ -67,6 +67,7 @@
     "lark_oapi/api/vc/v1/resource/meeting.py",
     "lark_oapi/ws/client.py",
     "lark_oapi/ws/pb/google/protobuf/descriptor_pb2.py",
+    "lark_oapi/ws/pb/google/protobuf/internal/decoder.py",
     "lark_oapi/ws/pb/google/protobuf/text_format.py",
     "samples/api/acs/v1/delete_visitor_sample.py",
     "samples/api/aily/v1/get_aily_session_run_sample.py",
@@ -94,6 +95,7 @@
     "samples/api/corehr/v1/create_job_change_sample.py",
     "samples/api/corehr/v1/create_person_sample.py",
     "samples/api/corehr/v1/leave_balances_leave_sample.py",
+    "samples/api/corehr/v2/create_location_address_sample.py",
     "samples/api/corehr/v2/patch_location_address_sample.py",
     "samples/api/corehr/v2/query_employees_job_data_sample.py",
     "samples/api/corehr/v2/update_process_revoke_sample.py",
@@ -136,7 +138,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/a22dceee9419c0a66adf85209030587cef0a9b9e.nq.gz",
     "call_sites": 114251,
     "import_statements": 28090,
-    "call_targets_resolved": 3745,
+    "call_targets_resolved": 3802,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -150,5 +152,5 @@
     "extends_class_denormalized": 17476,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1821
+  "elapsed_seconds": 1830
 }
