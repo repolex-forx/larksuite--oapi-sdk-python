@@ -8,6 +8,7 @@
     "lark_oapi/api/approval/v4/model/cancel_instance_request.py",
     "lark_oapi/api/approval/v4/model/task_search_node.py",
     "lark_oapi/api/attendance/v1/model/query_user_stats_field_response_body.py",
+    "lark_oapi/api/attendance/v1/resource/user_stats_view.py",
     "lark_oapi/api/bitable/v1/model/delete_record.py",
     "lark_oapi/api/bitable/v1/resource/app_role.py",
     "lark_oapi/api/calendar/v4/model/list_calendar_response_body.py",
@@ -15,6 +16,7 @@
     "lark_oapi/api/contact/v3/model/custom_attr.py",
     "lark_oapi/api/contact/v3/model/list_custom_attr_request_body.py",
     "lark_oapi/api/contact/v3/resource/group_member.py",
+    "lark_oapi/api/corehr/v1/model/get_department_response_body.py",
     "lark_oapi/api/corehr/v1/resource/company.py",
     "lark_oapi/api/corehr/v1/resource/working_hours_type.py",
     "lark_oapi/api/corehr/v2/model/dimension_entity.py",
@@ -29,6 +31,7 @@
     "lark_oapi/api/hire/v1/model/external_interview_assessment.py",
     "lark_oapi/api/hire/v1/model/external_offer.py",
     "lark_oapi/api/im/v1/model/get_chat_moderation_response.py",
+    "lark_oapi/api/im/v1/model/p2_im_message_message_read_v1.py",
     "lark_oapi/api/im/v1/model/reply_message_request_body.py",
     "lark_oapi/api/im/v2/model/feed_group_rules.py",
     "lark_oapi/api/mail/v1/resource/mailgroup_manager.py",
@@ -50,6 +53,7 @@
     "samples/api/contact/v3/create_job_level_sample.py",
     "samples/api/contact/v3/update_employee_type_enum_sample.py",
     "samples/api/corehr/v1/create_job_change_sample.py",
+    "samples/api/corehr/v1/create_person_sample.py",
     "samples/api/corehr/v1/leave_balances_leave_sample.py",
     "samples/api/corehr/v2/patch_location_address_sample.py",
     "samples/api/drive/v1/batch_query_file_comment_sample.py",
@@ -63,6 +67,7 @@
     "samples/api/lingo/v1/update_draft_sample.py",
     "samples/api/mail/v1/create_public_mailbox_alias_sample.py",
     "samples/api/mail/v1/send_user_mailbox_message_sample.py",
+    "samples/api/performance/v2/query_metric_detail_sample.py",
     "samples/api/search/v2/get_data_source_item_sample.py",
     "samples/api/sheets/v3/create_spreadsheet_sample.py",
     "samples/api/sheets/v3/delete_spreadsheet_sheet_filter_view_condition_sample.py",
@@ -77,7 +82,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/a22dceee9419c0a66adf85209030587cef0a9b9e.nq.gz",
     "call_sites": 114251,
     "import_statements": 28090,
-    "call_targets_resolved": 2040,
+    "call_targets_resolved": 2145,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -91,5 +96,5 @@
     "extends_class_denormalized": 17476,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1822
+  "elapsed_seconds": 1814
 }
