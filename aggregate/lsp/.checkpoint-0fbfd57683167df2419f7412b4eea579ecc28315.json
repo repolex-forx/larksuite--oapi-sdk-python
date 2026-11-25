@@ -2,14 +2,21 @@
   "commit_sha": "0fbfd57683167df2419f7412b4eea579ecc28315",
   "completed_files": [
     "lark_oapi/api/apaas/v1/model/user_task_summary_type.py",
+    "lark_oapi/api/bitable/v1/model/create_app_table_response.py",
+    "lark_oapi/api/contact/v3/model/department_detail.py",
+    "lark_oapi/api/corehr/v1/model/list_country_region_request.py",
     "lark_oapi/api/corehr/v2/resource/cost_allocation.py",
+    "lark_oapi/api/corehr/v2/resource/job_grade.py",
     "lark_oapi/api/hire/v1/model/job_detail_level.py",
+    "lark_oapi/api/hire/v1/model/list_interview_response_body.py",
     "lark_oapi/api/hire/v1/model/website_delivery_competition.py",
     "lark_oapi/api/mail/v1/resource/user_mailbox_alias.py",
+    "lark_oapi/api/search/v2/model/rag_answer_response.py",
     "lark_oapi/api/task/v2/model/patch_tasklist_request.py",
     "lark_oapi/api/task/v2/model/patch_tasklist_response.py",
     "samples/api/aily/v1/create_aily_session_run_sample.py",
     "samples/api/aily/v1/get_app_data_asset_sample.py",
+    "samples/api/contact/v3/unbind_department_chat_department_sample.py",
     "samples/api/corehr/v1/create_job_sample.py",
     "samples/api/corehr/v2/create_cost_center_version_sample.py",
     "samples/api/corehr/v2/create_pre_hire_sample.py",
@@ -17,10 +24,12 @@
     "samples/api/hire/v1/search_talent_pool_sample.py",
     "samples/api/hire/v1/update_external_interview_sample.py",
     "samples/api/payroll/v1/list_cost_allocation_detail_sample.py",
+    "samples/api/task/v1/batch_delete_collaborator_task_sample.py",
     "samples/api/task/v1/create_task_follower_sample.py",
     "samples/api/task/v2/delete_tasklist_sample.py",
     "samples/api/vc/v1/patch_reserve_config_form_sample.py",
-    "samples/api/wiki/v1/search_node_sample.py"
+    "samples/api/wiki/v1/search_node_sample.py",
+    "samples/api/wiki/v2/get_task_sample.py"
   ],
   "completed_types": [],
   "stats": {
@@ -28,7 +37,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/0fbfd57683167df2419f7412b4eea579ecc28315.nq.gz",
     "call_sites": 107345,
     "import_statements": 26245,
-    "call_targets_resolved": 500,
+    "call_targets_resolved": 645,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -42,5 +51,5 @@
     "extends_class_denormalized": 16212,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1850
+  "elapsed_seconds": 1837
 }
