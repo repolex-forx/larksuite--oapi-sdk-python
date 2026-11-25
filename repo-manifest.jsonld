@@ -362,7 +362,7 @@
     {
       "@id": "https://repolex.ai/r/larksuite/oapi-sdk-python/commit/ef9436a3a081b24c48ea0e511a0d83602c5b2b32",
       "git:hexsha": "ef9436a3a081b24c48ea0e511a0d83602c5b2b32",
-      "repolex:parseStatus": "pending",
+      "repolex:parseStatus": "metadata_complete",
       "git:tagName": "v1.5.2"
     },
     {
