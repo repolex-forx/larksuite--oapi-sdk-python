@@ -1,0 +1,31 @@
+{
+  "commit_sha": "5c934cadfc47ad5e33898931e4b3226d0bfe18ae",
+  "completed_files": [
+    "lark_oapi/api/hire/v1/model/search_talent_operation_log_request.py",
+    "lark_oapi/api/im/v1/model/sort_tabs_chat_tab_request.py",
+    "lark_oapi/api/search/v2/model/get_data_source_request.py",
+    "lark_oapi/ws/pb/google/protobuf/internal/decoder.py",
+    "samples/api/hire/v1/combined_update_job_sample.py"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/larksuite/oapi-sdk-python/lsp/5c934cadfc47ad5e33898931e4b3226d0bfe18ae",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/5c934cadfc47ad5e33898931e4b3226d0bfe18ae.nq.gz",
+    "call_sites": 111812,
+    "import_statements": 27333,
+    "call_targets_resolved": 168,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 16904,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 62229,
+    "import_symbols_denormalized": 113861,
+    "extends_class_denormalized": 16895,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1831
+}
