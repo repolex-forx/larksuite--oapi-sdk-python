@@ -9,6 +9,7 @@
     "lark_oapi/api/contact/v3/resource/job_title.py",
     "lark_oapi/api/corehr/v1/model/get_by_param_authorization_request.py",
     "lark_oapi/api/corehr/v1/model/get_file_response_body.py",
+    "lark_oapi/api/corehr/v2/model/search_basic_info_country_region_request_body.py",
     "lark_oapi/api/corehr/v2/resource/probation_assessment.py",
     "lark_oapi/api/docx/v1/model/batch_update_document_block_request.py",
     "lark_oapi/api/docx/v1/resource/document.py",
@@ -16,11 +17,14 @@
     "lark_oapi/api/hire/v1/model/recruiter_job_request.py",
     "lark_oapi/api/hire/v1/model/tag_talent_request_body.py",
     "lark_oapi/api/hire/v1/model/talent_career_info.py",
+    "lark_oapi/api/hire/v1/resource/eco_account_custom_field.py",
     "lark_oapi/api/hire/v1/resource/role.py",
     "lark_oapi/api/mail/v1/resource/mailgroup.py",
     "lark_oapi/api/mdm/v1/model/vendor_company_view.py",
+    "lark_oapi/api/performance/v2/model/invitation_relation.py",
     "lark_oapi/api/search/v2/model/rag_answer.py",
     "lark_oapi/api/sheets/v3/resource/spreadsheet_sheet_filter_view_condition.py",
+    "lark_oapi/api/task/v2/resource/section.py",
     "lark_oapi/api/translation/v1/model/term.py",
     "lark_oapi/api/vc/v1/model/p2_vc_room_level_deleted_v1.py",
     "lark_oapi/api/wiki/v2/model/list_space_request_body.py",
@@ -46,6 +50,7 @@
     "samples/api/hire/v1/search_talent_operation_log_sample.py",
     "samples/api/im/v1/read_users_message_sample.py",
     "samples/api/okr/v1/update_progress_record_sample.py",
+    "samples/api/search/v2/get_data_source_item_sample.py",
     "samples/api/sheets/v3/delete_spreadsheet_sheet_filter_sample.py",
     "samples/api/task/v2/create_custom_field_sample.py",
     "samples/api/task/v2/create_tasklist_sample.py",
@@ -58,7 +63,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/21d632792b926f0280880252d1cf30eee56cbc15.nq.gz",
     "call_sites": 109399,
     "import_statements": 26755,
-    "call_targets_resolved": 1291,
+    "call_targets_resolved": 1438,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -72,5 +77,5 @@
     "extends_class_denormalized": 16538,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1825
+  "elapsed_seconds": 1847
 }
