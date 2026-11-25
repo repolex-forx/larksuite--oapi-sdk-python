@@ -95,11 +95,13 @@
     "samples/api/im/v1/read_users_message_sample.py",
     "samples/api/mail/v1/batch_create_mailgroup_permission_member_sample.py",
     "samples/api/mail/v1/batch_delete_mailgroup_manager_sample.py",
+    "samples/api/mail/v1/list_public_mailbox_sample.py",
     "samples/api/mail/v1/update_mailgroup_sample.py",
     "samples/api/okr/v1/update_progress_record_sample.py",
     "samples/api/raw.py",
     "samples/api/search/v2/get_data_source_item_sample.py",
     "samples/api/sheets/v3/delete_spreadsheet_sheet_filter_sample.py",
+    "samples/api/task/v1/create_task_sample.py",
     "samples/api/task/v2/create_custom_field_sample.py",
     "samples/api/task/v2/create_tasklist_sample.py",
     "samples/api/task/v2/list_task_subtask_sample.py",
@@ -111,7 +113,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/21d632792b926f0280880252d1cf30eee56cbc15.nq.gz",
     "call_sites": 109399,
     "import_statements": 26755,
-    "call_targets_resolved": 3020,
+    "call_targets_resolved": 3147,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -125,5 +127,5 @@
     "extends_class_denormalized": 16538,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1827
+  "elapsed_seconds": 1836
 }
