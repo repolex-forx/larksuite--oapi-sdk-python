@@ -4,6 +4,7 @@
     "lark_oapi/api/attendance/v1/model/flexible_rule.py",
     "lark_oapi/api/bitable/v1/resource/app_table_record.py",
     "lark_oapi/api/contact/v3/resource/job_title.py",
+    "lark_oapi/api/corehr/v1/model/get_by_param_authorization_request.py",
     "lark_oapi/api/corehr/v1/model/get_file_response_body.py",
     "lark_oapi/api/docx/v1/model/batch_update_document_block_request.py",
     "lark_oapi/api/hire/v1/model/recruiter_job_request.py",
@@ -29,9 +30,12 @@
     "samples/api/corehr/v2/search_department_sample.py",
     "samples/api/corehr/v2/update_process_transfer_sample.py",
     "samples/api/docx/v1/create_document_block_children_sample.py",
+    "samples/api/docx/v1/list_chat_announcement_block_sample.py",
     "samples/api/drive/v1/upload_all_media_sample.py",
     "samples/api/hire/v1/batch_query_external_background_check_sample.py",
     "samples/api/hire/v1/search_talent_operation_log_sample.py",
+    "samples/api/im/v1/read_users_message_sample.py",
+    "samples/api/task/v2/create_tasklist_sample.py",
     "samples/api/task/v2/list_task_subtask_sample.py",
     "samples/api/vc/v1/get_reserve_config_form_sample.py"
   ],
@@ -41,7 +45,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/21d632792b926f0280880252d1cf30eee56cbc15.nq.gz",
     "call_sites": 109399,
     "import_statements": 26755,
-    "call_targets_resolved": 896,
+    "call_targets_resolved": 1031,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -55,5 +59,5 @@
     "extends_class_denormalized": 16538,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1820
+  "elapsed_seconds": 1872
 }
