@@ -1,0 +1,7 @@
+[2026-11-25T02:14:53Z] === AST ITERATION 1 START | repo=larksuite/oapi-sdk-python sha=5c934cad ===
+[2026-11-25T02:14:53Z] [iter=1] PHASE START: ast repo=larksuite/oapi-sdk-python sha=5c934cad
+[2026-11-25T02:14:53Z] [iter=1] Building AST aggregate chunks
+[2026-11-25T02:45:59Z] [iter=1] AST chunks built count=4 triples=25071883
+[2026-11-25T02:45:59Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/5c934cadfc47ad5e33898931e4b3226d0bfe18ae/.complete
+[2026-11-25T02:45:59Z] [iter=1] PHASE END: ast elapsed_s=1866 elapsed_min=31.1
+[2026-11-25T02:45:59Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
