@@ -38,6 +38,7 @@
     "samples/api/corehr/v2/create_cost_center_version_sample.py",
     "samples/api/corehr/v2/create_pre_hire_sample.py",
     "samples/api/corehr/v2/list_bp_sample.py",
+    "samples/api/corehr/v2/patch_pre_hire_sample.py",
     "samples/api/corehr/v2/submit_v2_offboarding_sample.py",
     "samples/api/corehr/v2/update_process_withdraw_sample.py",
     "samples/api/drive/v2/list_file_like_sample.py",
@@ -68,7 +69,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/0fbfd57683167df2419f7412b4eea579ecc28315.nq.gz",
     "call_sites": 107345,
     "import_statements": 26245,
-    "call_targets_resolved": 1319,
+    "call_targets_resolved": 1457,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -82,5 +83,5 @@
     "extends_class_denormalized": 16212,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1816
+  "elapsed_seconds": 1837
 }
