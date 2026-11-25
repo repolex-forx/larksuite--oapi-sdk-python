@@ -11,8 +11,10 @@
     "lark_oapi/api/hire/v1/model/application_prehire_offer.py",
     "lark_oapi/api/hire/v1/model/job_detail_level.py",
     "lark_oapi/api/hire/v1/model/list_interview_response_body.py",
+    "lark_oapi/api/hire/v1/model/location_dto.py",
     "lark_oapi/api/hire/v1/model/website_delivery_competition.py",
     "lark_oapi/api/mail/v1/resource/user_mailbox_alias.py",
+    "lark_oapi/api/search/v2/model/patch_data_source_request.py",
     "lark_oapi/api/search/v2/model/rag_answer_response.py",
     "lark_oapi/api/task/v2/model/patch_tasklist_request.py",
     "lark_oapi/api/task/v2/model/patch_tasklist_response.py",
@@ -24,8 +26,11 @@
     "samples/api/corehr/v2/create_cost_center_version_sample.py",
     "samples/api/corehr/v2/create_pre_hire_sample.py",
     "samples/api/corehr/v2/list_bp_sample.py",
+    "samples/api/corehr/v2/update_process_withdraw_sample.py",
     "samples/api/drive/v2/list_file_like_sample.py",
+    "samples/api/hire/v1/batch_update_job_manager_sample.py",
     "samples/api/hire/v1/offer_status_offer_sample.py",
+    "samples/api/hire/v1/search_referral_sample.py",
     "samples/api/hire/v1/search_talent_pool_sample.py",
     "samples/api/hire/v1/update_external_interview_sample.py",
     "samples/api/hire/v1/update_job_requirement_sample.py",
@@ -36,6 +41,7 @@
     "samples/api/task/v1/create_task_follower_sample.py",
     "samples/api/task/v2/delete_tasklist_sample.py",
     "samples/api/vc/v1/patch_reserve_config_form_sample.py",
+    "samples/api/vc/v1/set_room_access_code_room_config_sample.py",
     "samples/api/wiki/v1/search_node_sample.py",
     "samples/api/wiki/v2/get_task_sample.py"
   ],
@@ -45,7 +51,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/0fbfd57683167df2419f7412b4eea579ecc28315.nq.gz",
     "call_sites": 107345,
     "import_statements": 26245,
-    "call_targets_resolved": 812,
+    "call_targets_resolved": 940,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -59,5 +65,5 @@
     "extends_class_denormalized": 16212,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1805
+  "elapsed_seconds": 1835
 }
