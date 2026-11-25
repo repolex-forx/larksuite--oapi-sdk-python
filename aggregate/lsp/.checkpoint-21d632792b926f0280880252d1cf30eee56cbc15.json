@@ -9,7 +9,9 @@
     "lark_oapi/api/contact/v3/resource/job_title.py",
     "lark_oapi/api/corehr/v1/model/get_by_param_authorization_request.py",
     "lark_oapi/api/corehr/v1/model/get_file_response_body.py",
+    "lark_oapi/api/corehr/v2/model/patch_probation_assessment_response.py",
     "lark_oapi/api/corehr/v2/model/search_basic_info_country_region_request_body.py",
+    "lark_oapi/api/corehr/v2/resource/department.py",
     "lark_oapi/api/corehr/v2/resource/probation_assessment.py",
     "lark_oapi/api/docx/v1/model/batch_update_document_block_request.py",
     "lark_oapi/api/docx/v1/resource/document.py",
@@ -24,6 +26,7 @@
     "lark_oapi/api/performance/v2/model/invitation_relation.py",
     "lark_oapi/api/search/v2/model/rag_answer.py",
     "lark_oapi/api/sheets/v3/resource/spreadsheet_sheet_filter_view_condition.py",
+    "lark_oapi/api/task/v2/model/add_tasklist_task_request_body.py",
     "lark_oapi/api/task/v2/resource/section.py",
     "lark_oapi/api/translation/v1/model/term.py",
     "lark_oapi/api/vc/v1/model/p2_vc_room_level_deleted_v1.py",
@@ -40,6 +43,7 @@
     "samples/api/corehr/v1/create_company_sample.py",
     "samples/api/corehr/v1/create_person_sample.py",
     "samples/api/corehr/v1/delete_working_hours_type_sample.py",
+    "samples/api/corehr/v2/revoke_job_change_sample.py",
     "samples/api/corehr/v2/search_department_sample.py",
     "samples/api/corehr/v2/update_process_transfer_sample.py",
     "samples/api/docx/v1/create_document_block_children_sample.py",
@@ -48,6 +52,8 @@
     "samples/api/hire/v1/batch_query_external_background_check_sample.py",
     "samples/api/hire/v1/delete_website_channel_sample.py",
     "samples/api/hire/v1/search_talent_operation_log_sample.py",
+    "samples/api/im/v1/me_join_chat_members_sample.py",
+    "samples/api/im/v1/push_follow_up_message_sample.py",
     "samples/api/im/v1/read_users_message_sample.py",
     "samples/api/okr/v1/update_progress_record_sample.py",
     "samples/api/search/v2/get_data_source_item_sample.py",
@@ -63,7 +69,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/21d632792b926f0280880252d1cf30eee56cbc15.nq.gz",
     "call_sites": 109399,
     "import_statements": 26755,
-    "call_targets_resolved": 1438,
+    "call_targets_resolved": 1609,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -77,5 +83,5 @@
     "extends_class_denormalized": 16538,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1847
+  "elapsed_seconds": 1817
 }
