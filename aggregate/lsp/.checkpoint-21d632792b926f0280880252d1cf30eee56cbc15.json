@@ -14,12 +14,15 @@
     "lark_oapi/api/corehr/v1/model/get_file_response_body.py",
     "lark_oapi/api/corehr/v2/model/patch_probation_assessment_response.py",
     "lark_oapi/api/corehr/v2/model/search_basic_info_country_region_request_body.py",
+    "lark_oapi/api/corehr/v2/model/tranfer_employment_info.py",
     "lark_oapi/api/corehr/v2/resource/department.py",
     "lark_oapi/api/corehr/v2/resource/probation_assessment.py",
     "lark_oapi/api/document_ai/v1/model/recognize_business_card_request_body.py",
     "lark_oapi/api/docx/v1/model/batch_update_document_block_request.py",
     "lark_oapi/api/docx/v1/model/undefined_element.py",
     "lark_oapi/api/docx/v1/resource/document.py",
+    "lark_oapi/api/drive/v1/model/meta_request.py",
+    "lark_oapi/api/drive/v1/resource/media.py",
     "lark_oapi/api/helpdesk/v1/model/search_faq_response.py",
     "lark_oapi/api/hire/v1/model/list_offer_application_form_request_body.py",
     "lark_oapi/api/hire/v1/model/list_portal_apply_schema_request.py",
@@ -44,6 +47,7 @@
     "lark_oapi/api/vc/v1/resource/export.py",
     "lark_oapi/api/wiki/v2/model/list_space_request_body.py",
     "lark_oapi/ws/pb/google/protobuf/descriptor_pb2.py",
+    "lark_oapi/ws/pb/google/protobuf/internal/python_message.py",
     "samples/api/aily/v1/get_app_data_asset_sample.py",
     "samples/api/apaas/v1/get_application_audit_log_sample.py",
     "samples/api/approval/v4/create_approval_sample.py",
@@ -72,6 +76,7 @@
     "samples/api/docx/v1/create_document_block_children_sample.py",
     "samples/api/docx/v1/list_chat_announcement_block_sample.py",
     "samples/api/drive/v1/upload_all_media_sample.py",
+    "samples/api/helpdesk/v1/create_ticket_message_sample.py",
     "samples/api/hire/v1/batch_delete_eco_background_check_custom_field_sample.py",
     "samples/api/hire/v1/batch_query_external_background_check_sample.py",
     "samples/api/hire/v1/combined_create_talent_sample.py",
@@ -100,7 +105,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/21d632792b926f0280880252d1cf30eee56cbc15.nq.gz",
     "call_sites": 109399,
     "import_statements": 26755,
-    "call_targets_resolved": 2719,
+    "call_targets_resolved": 2910,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -114,5 +119,5 @@
     "extends_class_denormalized": 16538,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1831
+  "elapsed_seconds": 1810
 }
