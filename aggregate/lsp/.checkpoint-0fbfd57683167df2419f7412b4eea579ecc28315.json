@@ -64,6 +64,7 @@
     "lark_oapi/api/task/v2/model/patch_tasklist_request.py",
     "lark_oapi/api/task/v2/model/patch_tasklist_response.py",
     "lark_oapi/api/translation/v1/resource/text.py",
+    "lark_oapi/api/vc/v1/model/get_participant_list_response_body.py",
     "lark_oapi/ws/pb/google/protobuf/compiler/plugin_pb2.py",
     "lark_oapi/ws/pb/google/protobuf/internal/encoder.py",
     "samples/api/acs/v1/get_user_face_sample.py",
@@ -91,6 +92,7 @@
     "samples/api/corehr/v2/list_bp_sample.py",
     "samples/api/corehr/v2/patch_pre_hire_sample.py",
     "samples/api/corehr/v2/query_employees_job_data_sample.py",
+    "samples/api/corehr/v2/search_basic_info_country_region_subdivision_sample.py",
     "samples/api/corehr/v2/submit_v2_offboarding_sample.py",
     "samples/api/corehr/v2/update_process_withdraw_sample.py",
     "samples/api/docx/v1/patch_document_block_sample.py",
@@ -98,6 +100,7 @@
     "samples/api/drive/v2/list_file_like_sample.py",
     "samples/api/event/v1/list_outbound_ip_sample.py",
     "samples/api/helpdesk/v1/cancel_approve_notification_sample.py",
+    "samples/api/helpdesk/v1/create_agent_schedule_sample.py",
     "samples/api/helpdesk/v1/customized_fields_ticket_sample.py",
     "samples/api/hire/v1/batch_update_job_manager_sample.py",
     "samples/api/hire/v1/combined_create_job_sample.py",
@@ -107,6 +110,7 @@
     "samples/api/hire/v1/list_note_sample.py",
     "samples/api/hire/v1/list_user_role_sample.py",
     "samples/api/hire/v1/offer_status_offer_sample.py",
+    "samples/api/hire/v1/search_job_publish_record_sample.py",
     "samples/api/hire/v1/search_referral_sample.py",
     "samples/api/hire/v1/search_talent_pool_sample.py",
     "samples/api/hire/v1/update_external_interview_sample.py",
@@ -114,6 +118,7 @@
     "samples/api/im/v1/list_message_sample.py",
     "samples/api/im/v1/sort_tabs_chat_tab_sample.py",
     "samples/api/im/v1/urgent_app_message_sample.py",
+    "samples/api/mail/v1/create_user_mailbox_alias_sample.py",
     "samples/api/mail/v1/delete_mailgroup_sample.py",
     "samples/api/mail/v1/list_user_mailbox_mail_contact_sample.py",
     "samples/api/okr/v1/list_period_sample.py",
@@ -142,7 +147,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/0fbfd57683167df2419f7412b4eea579ecc28315.nq.gz",
     "call_sites": 107345,
     "import_statements": 26245,
-    "call_targets_resolved": 3457,
+    "call_targets_resolved": 3587,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -156,5 +161,5 @@
     "extends_class_denormalized": 16212,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1835
+  "elapsed_seconds": 1823
 }
