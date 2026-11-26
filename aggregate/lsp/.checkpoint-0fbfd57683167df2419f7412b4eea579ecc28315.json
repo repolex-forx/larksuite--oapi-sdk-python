@@ -67,6 +67,7 @@
     "lark_oapi/api/hire/v1/model/search_referral_request.py",
     "lark_oapi/api/hire/v1/model/website_delivery_competition.py",
     "lark_oapi/api/hire/v1/resource/eco_account_custom_field.py",
+    "lark_oapi/api/hire/v1/resource/employee.py",
     "lark_oapi/api/hire/v1/resource/job_requirement_schema.py",
     "lark_oapi/api/hire/v1/resource/note.py",
     "lark_oapi/api/hire/v1/resource/talent.py",
@@ -98,6 +99,7 @@
     "lark_oapi/api/vc/v1/resource/export.py",
     "lark_oapi/api/vc/v1/resource/meeting_recording.py",
     "lark_oapi/ws/pb/google/protobuf/compiler/plugin_pb2.py",
+    "lark_oapi/ws/pb/google/protobuf/descriptor_pool.py",
     "lark_oapi/ws/pb/google/protobuf/internal/encoder.py",
     "lark_oapi/ws/pb/google/protobuf/internal/python_message.py",
     "samples/api/acs/v1/get_user_face_sample.py",
@@ -221,7 +223,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/0fbfd57683167df2419f7412b4eea579ecc28315.nq.gz",
     "call_sites": 107345,
     "import_statements": 26245,
-    "call_targets_resolved": 5584,
+    "call_targets_resolved": 5784,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -235,5 +237,5 @@
     "extends_class_denormalized": 16212,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1812
+  "elapsed_seconds": 1852
 }
