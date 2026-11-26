@@ -18,6 +18,7 @@
     "lark_oapi/api/corehr/v2/resource/cost_allocation.py",
     "lark_oapi/api/corehr/v2/resource/job_grade.py",
     "lark_oapi/api/document_ai/v1/model/vehicle_invoice.py",
+    "lark_oapi/api/docx/v1/resource/document_block.py",
     "lark_oapi/api/helpdesk/v1/model/cancel_approve_notification_request.py",
     "lark_oapi/api/hire/v1/model/application_prehire_offer.py",
     "lark_oapi/api/hire/v1/model/job_detail_level.py",
@@ -37,6 +38,7 @@
     "lark_oapi/api/task/v2/model/patch_tasklist_request.py",
     "lark_oapi/api/task/v2/model/patch_tasklist_response.py",
     "lark_oapi/api/translation/v1/resource/text.py",
+    "lark_oapi/ws/pb/google/protobuf/internal/encoder.py",
     "samples/api/aily/v1/create_aily_session_run_sample.py",
     "samples/api/aily/v1/get_app_data_asset_sample.py",
     "samples/api/aily/v1/list_aily_session_run_sample.py",
@@ -69,10 +71,12 @@
     "samples/api/hire/v1/update_external_interview_sample.py",
     "samples/api/hire/v1/update_job_requirement_sample.py",
     "samples/api/im/v1/list_message_sample.py",
+    "samples/api/im/v1/urgent_app_message_sample.py",
     "samples/api/mail/v1/delete_mailgroup_sample.py",
     "samples/api/mail/v1/list_user_mailbox_mail_contact_sample.py",
     "samples/api/okr/v1/list_period_sample.py",
     "samples/api/payroll/v1/list_cost_allocation_detail_sample.py",
+    "samples/api/performance/v2/query_question_sample.py",
     "samples/api/report/v1/query_task_sample.py",
     "samples/api/search/v2/patch_data_source_sample.py",
     "samples/api/search/v2/patch_schema_sample.py",
@@ -91,7 +95,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/0fbfd57683167df2419f7412b4eea579ecc28315.nq.gz",
     "call_sites": 107345,
     "import_statements": 26245,
-    "call_targets_resolved": 2083,
+    "call_targets_resolved": 2376,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -105,5 +109,5 @@
     "extends_class_denormalized": 16212,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1819
+  "elapsed_seconds": 1834
 }
