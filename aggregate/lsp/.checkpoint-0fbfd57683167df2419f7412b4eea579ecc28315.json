@@ -95,6 +95,7 @@
     "samples/api/corehr/v1/patch_contract_sample.py",
     "samples/api/corehr/v2/batch_query_default_cost_center_sample.py",
     "samples/api/corehr/v2/create_cost_center_version_sample.py",
+    "samples/api/corehr/v2/create_location_address_sample.py",
     "samples/api/corehr/v2/create_pre_hire_sample.py",
     "samples/api/corehr/v2/list_bp_sample.py",
     "samples/api/corehr/v2/patch_pre_hire_sample.py",
@@ -115,9 +116,11 @@
     "samples/api/hire/v1/create_external_interview_sample.py",
     "samples/api/hire/v1/delete_note_sample.py",
     "samples/api/hire/v1/list_interviewer_sample.py",
+    "samples/api/hire/v1/list_job_schema_sample.py",
     "samples/api/hire/v1/list_note_sample.py",
     "samples/api/hire/v1/list_user_role_sample.py",
     "samples/api/hire/v1/offer_status_offer_sample.py",
+    "samples/api/hire/v1/query_location_sample.py",
     "samples/api/hire/v1/search_job_publish_record_sample.py",
     "samples/api/hire/v1/search_referral_sample.py",
     "samples/api/hire/v1/search_talent_pool_sample.py",
@@ -155,7 +158,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/0fbfd57683167df2419f7412b4eea579ecc28315.nq.gz",
     "call_sites": 107345,
     "import_statements": 26245,
-    "call_targets_resolved": 3792,
+    "call_targets_resolved": 3989,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -169,5 +172,5 @@
     "extends_class_denormalized": 16212,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1822
+  "elapsed_seconds": 1811
 }
