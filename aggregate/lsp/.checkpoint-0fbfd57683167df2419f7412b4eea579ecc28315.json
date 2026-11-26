@@ -48,8 +48,10 @@
     "lark_oapi/api/hire/v1/model/search_referral_request.py",
     "lark_oapi/api/hire/v1/model/website_delivery_competition.py",
     "lark_oapi/api/hire/v1/resource/eco_account_custom_field.py",
+    "lark_oapi/api/hire/v1/resource/job_requirement_schema.py",
     "lark_oapi/api/hire/v1/resource/note.py",
     "lark_oapi/api/hire/v1/resource/talent.py",
+    "lark_oapi/api/hire/v1/resource/tripartite_agreement.py",
     "lark_oapi/api/hire/v2/model/id_name_object.py",
     "lark_oapi/api/im/v1/model/forward_thread_response.py",
     "lark_oapi/api/im/v1/model/is_in_chat_chat_members_request.py",
@@ -94,6 +96,7 @@
     "samples/api/corehr/v1/get_job_family_sample.py",
     "samples/api/corehr/v1/list_currency_sample.py",
     "samples/api/corehr/v1/patch_contract_sample.py",
+    "samples/api/corehr/v1/patch_employment_sample.py",
     "samples/api/corehr/v2/batch_query_default_cost_center_sample.py",
     "samples/api/corehr/v2/create_cost_center_version_sample.py",
     "samples/api/corehr/v2/create_location_address_sample.py",
@@ -101,6 +104,8 @@
     "samples/api/corehr/v2/list_bp_sample.py",
     "samples/api/corehr/v2/patch_pre_hire_sample.py",
     "samples/api/corehr/v2/query_employees_job_data_sample.py",
+    "samples/api/corehr/v2/query_recent_change_cost_center_sample.py",
+    "samples/api/corehr/v2/query_recent_change_job_sample.py",
     "samples/api/corehr/v2/search_basic_info_country_region_subdivision_sample.py",
     "samples/api/corehr/v2/submit_v2_offboarding_sample.py",
     "samples/api/corehr/v2/update_process_withdraw_sample.py",
@@ -111,7 +116,9 @@
     "samples/api/event/v1/list_outbound_ip_sample.py",
     "samples/api/helpdesk/v1/cancel_approve_notification_sample.py",
     "samples/api/helpdesk/v1/create_agent_schedule_sample.py",
+    "samples/api/helpdesk/v1/create_notification_sample.py",
     "samples/api/helpdesk/v1/customized_fields_ticket_sample.py",
+    "samples/api/helpdesk/v1/search_faq_sample.py",
     "samples/api/hire/v1/batch_update_job_manager_sample.py",
     "samples/api/hire/v1/combined_create_job_sample.py",
     "samples/api/hire/v1/create_external_interview_sample.py",
@@ -160,7 +167,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/0fbfd57683167df2419f7412b4eea579ecc28315.nq.gz",
     "call_sites": 107345,
     "import_statements": 26245,
-    "call_targets_resolved": 4150,
+    "call_targets_resolved": 4363,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -174,5 +181,5 @@
     "extends_class_denormalized": 16212,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1832
+  "elapsed_seconds": 1844
 }
